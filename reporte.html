@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto dinámico - Recursos y tareas</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <h2>Configuración del proyecto</h2>
+
+  <label for="numTareas">¿Cuántas tareas tiene el proyecto?</label>
+  <input type="number" id="numTareas" min="1" max="10" value="3" />
+  <br/>
+
+  <label for="numRecursos">¿Cuántos tipos de recursos hay?</label>
+  <input type="number" id="numRecursos" min="1" max="10" value="3" />
+  <br/>
+
+  <button id="btnGenerar">Generar formulario</button>
+
+  <form id="formDatos" class="hidden">
+    <h3>Definir tareas y recursos</h3>
+    <div id="tareasContainer"></div>
+    <div id="recursosContainer"></div>
+
+    <h3>Requerimientos por tarea (matriz)</h3>
+    <div id="matrizContainer"></div>
+
+    <h3>Nivel de actividad (cuántas veces se hará cada tarea)</h3>
+    <div id="actividadContainer"></div>
+
+    <button type="button" id="btnCalcular">Calcular factibilidad</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="Index.js"></script>
+</body>
+</html>

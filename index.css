@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+input[type=number], input[type=text] {
+  width: 100px;
+  padding: 5px;
+  margin: 3px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
