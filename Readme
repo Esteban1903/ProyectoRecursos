@@ -1,0 +1,40 @@
+# Proyecto de Recursos y Tareas
+
+Este proyecto web permite configurar un conjunto de tareas y tipos de recursos, asignar requerimientos, y calcular automáticamente si el proyecto es factible con los recursos disponibles. Es una herramienta interactiva y sencilla, construida con HTML, CSS y JavaScript puro.
+
+## 🚀 Funcionalidades principales
+
+- Definición de tareas y recursos.
+- Construcción automática de una matriz de requerimientos.
+- Cálculo del consumo de recursos según nivel de actividad.
+- Evaluación de la factibilidad del proyecto con los recursos disponibles.
+
+## 💻 Tecnologías utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## 👥 Integrantes
+
+- Esteban Parra  
+- Julián Ferrer  
+- Edward Alejandro Marulanda  
+- María Alejandra Carsona
+
+## 📄 Estructura del proyecto
+
+- `reporte.html`: Interfaz principal del usuario.
+- `Index.js`: Lógica dinámica y cálculo de factibilidad.
+- `index.css`: Estilos para una presentación clara y responsive.
+
+## 📦 Cómo usar
+
+1. Abre `reporte.html` en tu navegador.
+2. Ingresa el número de tareas y recursos.
+3. Define los nombres, disponibilidades y requerimientos.
+4. Presiona "Calcular factibilidad" para ver el resultado.
+
+---
+
+¡Gracias por visitar este repositorio!
